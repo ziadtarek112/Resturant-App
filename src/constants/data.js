@@ -1,28 +1,28 @@
 import images from './images';
 
-const wines = [
+const juices = [
   {
-    title: 'Chapel Hill Shiraz',
+    title: 'Mango',
     price: '$56',
     tags: 'AU | Bottle',
   },
   {
-    title: 'Catena Malbee',
+    title: 'Apple',
     price: '$59',
     tags: 'AU | Bottle',
   },
   {
-    title: 'La Vieillw Rose',
+    title: 'Kiwi',
     price: '$44',
     tags: 'FR | 750 ml',
   },
   {
-    title: 'Rhino Pale Ale',
+    title: 'Lemon',
     price: '$31',
     tags: 'CA | 750 ml',
   },
   {
-    title: 'Irish Guinness',
+    title: 'Orange',
     price: '$26',
     tags: 'IE | 750 ml',
   },
@@ -30,27 +30,27 @@ const wines = [
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
+    title: 'Mix Orange',
     price: '$20',
     tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
   },
   {
-    title: "Dark 'N' Stormy",
+    title: "Straight's Mojito",
     price: '$16',
     tags: 'Dark rum | Ginger beer | Slice of lime',
   },
   {
-    title: 'Daiquiri',
+    title: 'Lemonade',
     price: '$10',
     tags: 'Rum | Citrus juice | Sugar',
   },
   {
-    title: 'Old Fashioned',
+    title: 'Hot Chocholate',
     price: '$31',
     tags: 'Bourbon | Brown sugar | Angostura Bitters',
   },
   {
-    title: 'Negroni',
+    title: 'Enery Drink',
     price: '$26',
     tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
   },
@@ -79,4 +79,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { juices, cocktails, awards };
